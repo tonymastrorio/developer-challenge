@@ -16,6 +16,7 @@ __The challenge is the following:__
     - email should begin with a minimum of two alpha characters followed by the @ symbol followed by a minimum of two alpha characters followed by a period, and ending with a minimum of two alpha characters after the period.
   - Check in the final landing page and then email the team letting us know you have completed this challenge - <a href="mailto:marketing-developers@bisk.com">marketing-developers@bisk.com</a>
 
+  <style>img { border: 1px solid ##888; }</style>
   <div><img src="https://github.com/Bisk/developer-challenge/blob/master/website-challenge.jpg" /></div>
 
 (https://github.com/Bisk/developer-challenge/blob/master/website-challenge.jpg)
