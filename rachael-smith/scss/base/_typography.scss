@@ -1,0 +1,44 @@
+h1 {
+    font-size: 25px;
+    @include font-semibold;
+}
+
+h2 {
+	font-size:23px;
+	@include font-semibold;
+}
+
+h3 {
+	font-size:20px;
+	@include font-semibold;
+}
+
+h4 {
+	font-size:18px;
+	@include font-semibold;
+}
+
+h5 {
+	font-size:16px;
+	@include font-semibold;
+}
+
+strong {
+	@include font-semibold;
+}
+
+label {
+	font-weight:$weight-semibold;
+	color:#777;
+}
+
+.underline {
+	text-decoration:underline
+}
+
+.italic {
+	font-style:italic;
+}
+
+
+

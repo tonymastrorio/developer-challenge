@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <title>Startup</title>
+    <link rel="stylesheet" href="bower_components/tether/dist/css/tether.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-light">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+            <img alt="" class="d-inline-block align-top logo" src="assets/logo.png"/>
+            <div class="logo-text navbar-text"> Startup </div>
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-default sign-in">sign in</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="page">
+      <div class="content">
+        <div class="header">
+          <img class="boat" src="assets/boat.png"/>
+          <div class="boat-header header1"> We’ve created the product that will help your startup to look even better.</div>
+          <div class="boat-header header2">You have the design, you have the code</div>
+        </div>
+        <div class="container1">
+          <div class="cont2-content">
+            <div class="header1"> We’ve created the product that will help your startup to look better.</div>
+            <div class="header2">Startup Design Framework contains components and complex blocks which can easily be integrated into almost any design. Responsive layout, clear grid, retina ready.</div>
+          </div>
+        </div>
+        <div class="container2">
+          <div class="cont2-content">
+            <div class="box">
+              <div class="box-header"> High Resolution </div>
+              <div class="box-content"> We did a 2.5K size high resolution photo that will suit even for a very large site</div>
+            </div>
+            <div class="box">
+              <div class="box-header"> Easy to use </div>
+              <div class="box-content"> To get started, you select the disired sample and base the entire website on it. It's that simple!</div>
+            </div>
+            <div class="box">
+              <div class="box-header"> Feel out design </div>
+              <div class="box-content"> Samples will show you the feeling on how to play around using the components.</div>
+            </div>
+          </div>
+        </div>
+        <div class="container3">
+          <div class="cont3-content">
+            <img class="left graph" src="assets/graph.png"/>
+            <img class="icons" src="assets/icons.png"/>
+            <div class="cont3-text">
+              <div class="right cont3-header"> Multi useful conponents</div>
+              <div class="right cont3-content">Startup Design Framework contains components and complex blocks which can easily be integrated into almost any design. All of these components are made in the same style.</div>
+            </div>
+            <button type="button" class="btn right try" data-toggle="modal" data-target="#modal">try it now</button>
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Personal Information</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form name="form" method="post" onsubmit="return validate();">
+                      <div class="form-group">
+                        <label>Name</label>
+                        <input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text">
+                      </div>
+                      <div class="form-group">
+                        <label>E-Mail</label>
+                        <input id ="email" class="form-control email" placeholder="email@you.com" type="text">
+                      </div>
+                      <div class="form-group">
+                        <label>Phone</label>
+                        <input id="phone" class="form-control phone" placeholder="999-999-9999" type="text">
+                      </div>
+                      <div class="form-group"><button type="submit" class="btn btn-success pull-right">Submit</button></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-box">
+          <div class="footer-logo-text"> Startup</div>
+        </div>
+        <div class="footer-box">
+          <div class="footer-header">About</div>
+          <ul>
+            <li class="footer-content"> About Us </li>
+            <li class="footer-content"> Blog </li>
+            <li class="footer-content"> Team </li>
+            <li class="footer-content"> Career </li>
+            <li class="footer-content"> Contact </li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <div class="footer-header">Work</div>
+          <ul>
+            <li class="footer-content"> Our Portfolio </li>
+            <li class="footer-content"> Latest Work </li>
+            <li class="footer-content"> Brands </li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <div class="footer-header">Stuff</div>
+          <ul>
+            <li class="footer-content"> Privacy </li>
+            <li class="footer-content"> Terms </li>
+            <li class="footer-content"> Advertise </li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <div class="footer-header">Subscribe</div>
+          <div class="input-group">
+            <input type="text" class="form-control footer-input" placeholder="E-mail">
+            <span class="input-group-addon">></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/tether/dist/js/tether.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    </body>
+  </html>

@@ -1,0 +1,53 @@
+@mixin word-wrap {
+	word-break:  break-word;
+	-webkit-hyphens: auto;
+		 -moz-hyphens: auto;
+					hyphens: auto;
+}
+
+@mixin font-smoothing {
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing:antialiased;
+					font-smoothing:antialiased;
+						 font-smooth:always;
+}
+
+@mixin box($box-sizing) {
+	box-sizing:$box-sizing;
+}
+
+//for shadowing non-square shapes
+@mixin drop-shadow($dropshadow) {
+	-webkit-filter:drop-shadow($dropshadow);
+		 -moz-filter:drop-shadow($dropshadow);
+			-ms-filter:drop-shadow($dropshadow);
+			 -o-filter:drop-shadow($dropshadow);
+					filter:drop-shadow($dropshadow);
+}
+
+@mixin font-regular {
+	font-weight:$weight-regular;
+}
+
+@mixin font-light {
+	font-weight:$weight-light;
+}
+
+@mixin font-semibold {
+	font-weight:$weight-semibold;
+}
+
+@mixin font-bold {
+	font-weight:$weight-bold;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+

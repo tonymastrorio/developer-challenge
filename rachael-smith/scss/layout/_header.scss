@@ -1,0 +1,31 @@
+.header{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    .boat{
+    	position: relative;
+    	width: 100%;
+    }
+    .boat-header{
+		position: absolute;
+		left: $content-margin;
+		margin: 0 auto;
+		width: 745px;
+		height: 50px;
+		color: white;
+	}
+	.header1{
+		font-weight: $weight-semibold;
+		font-size: 34px;
+		display: block;
+
+	}
+	.header2{
+		font-size: 30px;
+		font-weight: $weight-light;
+		margin-top: 100px;
+	}
+    
+}

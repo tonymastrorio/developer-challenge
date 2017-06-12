@@ -1,0 +1,57 @@
+//-- Debug
+$debugger: false;
+
+//-- Grid
+$grid-gutter-width:         10px;
+$screen-xs:                 480px;
+$screen-sm-min:             767px;
+$screen-sm:                 768px;
+$screen-sm-ls:              1024px;
+$screen-md:                 1025px;
+$screen-lg:                 1200px;
+$screen-xl:                 1480px;
+$screen-xl-min:             $screen-xl - 1px;
+
+//--- Spacing
+$gap-xs:                    5px;
+$gap-sm:                    10px;
+$gap:                       20px;
+$gap-md:                    30px;
+$gap-lg:                    40px;
+
+
+//-- Typography
+$font-regular:              "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-size-base:            14px;
+$line-height-small:         1.5 !default;
+$line-height-base:          1.428571429; // 20/14
+$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
+$font-family-sans-serif:    $font-regular, sans-serif;
+$weight-regular:            400;
+$weight-light:              300;
+$weight-semibold:           600;
+$weight-bold:               700;
+
+
+//-- Components
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+$padding-xs-vertical:       1px !default;
+$padding-xs-horizontal:     5px !default;
+
+//--- General
+
+$content-margin:			130px;
+
+//--- Top Nav
+$navbar-height:				100px;
+
+
+//--- Footer
+$footer-height:             270px;
+
+
