@@ -5,7 +5,7 @@ Bisk online front end developer challenge.
 The goal of this challenge is to develop as much of the layout of this single landing page as possible utilizing the bootstrap 4+ css framework.
 The project itself can be developed using your language of choice, HTML, PHP, Node, Ruby, and should be optimized for both Desktop and Mobile view ports.
 
-** The challenge is the following: **
+__The challenge is the following:__
   - Create your own branch within this repo - firstname-lastname
   - Check in your branch to the repo to begin the challenge
   - Check in your code as you develop so that we can see your progress as you add functionality
