@@ -10,4 +10,4 @@ The project itself can be developed using your language of choice, HTML, PHP, No
   - Add a lead form asking for first name, last name, email and phone.
   - Validate the lead form with required fields
 
-(https://github.com/Bisk/developer-challenge/website-challenge.jpg)
+(https://github.com/Bisk/developer-challenge/blob/master/website-challenge.jpg)
