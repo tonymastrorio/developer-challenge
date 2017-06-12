@@ -15,7 +15,7 @@ __The challenge is the following:__
   - Check in your branch to the repo to begin the challenge
   - Check in your code as you develop so that we can see your progress as you add functionality
   - Develop the layout using clean CSS styling techniques utilizing as much out of the box bootstrap styling as possible.
-  - Add a lead form asking for first name, last name, email and phone.
+  - From the CTA button [ TRY IT NOW ] I would like a short form modal/or slider to appear asking for name, email and phone.
   - Validate the lead form with required fields and highlight errors requiring the fields with proper validation rules.
     - phone should be validated with digits between 10 and 15 numbers
     - email should begin with a minimum of two alpha characters followed by the @ symbol followed by a minimum of two alpha characters followed by a period, and ending with a minimum of two alpha characters after the period.
