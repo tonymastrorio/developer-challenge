@@ -19,8 +19,21 @@ __The challenge is the following:__
   - Develop the layout using clean CSS styling techniques utilizing as much out of the box bootstrap styling as possible.
   - From the CTA button [ TRY IT NOW ] I would like a short form modal/or slider to appear asking for name, email and phone.
   - Validate the lead form with required fields and highlight errors requiring the fields with proper validation rules.
-    - phone should be validated with digits between 10 and 15 numbers
-    - email should begin with a minimum of two alpha characters followed by the @ symbol followed by a minimum of two alpha characters followed by a period, and ending with a minimum of two alpha characters after the period.
+    - Email rules:
+      - Must begin with letters followed by @ sign
+      - Must contain a domain and [.] extention
+      - Domain and extension must be 2 letters or greater.
+    - Phone rules:
+      - Stripping extra characters the format must contain at least 10 digits
+      - Must be no greater than 15 digits
+      - Cannot begin with repeating number patterns like 000, 111, 222
+      - Cannot contain the following patterns
+        - 1234567890
+        - 0987654321
+        - 9876543210
+        - 0123456789
+        - 0101010101
+        - 1010101010
   - Check in the final landing page and then email the team letting us know you have completed this challenge - <a href="mailto:marketing-developers@bisk.com">marketing-developers@bisk.com</a>
 
   <div style="border: 1px solid ##888;"><img src="https://github.com/Bisk/developer-challenge/blob/master/website-challenge.png" /></div>
