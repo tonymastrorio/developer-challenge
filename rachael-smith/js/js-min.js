@@ -1,1 +1,0 @@
-function validate(){var e=$("#email").val();/(.+)@(.+){2,}\.(.+){2,}/.test(e)||""===e||null===e||alert("Please enter a valid email");var a=$("#phone").val();return/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(a)||""===a||null===a||alert("Please enter a valid phone number"),!1}
