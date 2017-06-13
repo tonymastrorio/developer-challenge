@@ -8,6 +8,8 @@ The project itself can be developed using your language of choice, HTML, PHP, No
 
 Resources for the hero image and icons used in the layout are in the resources folder within this project.
 
+__Launch the challenge by downloading the repo to your computer and install using node: npm install__
+
 Good Luck!!!
 
 __The challenge is the following:__
