@@ -1,0 +1,34 @@
+.navbar {
+	margin-top:20px;
+}
+
+#logo-text {
+	display: inline-block;
+	margin-left: 20px;
+	color: #374151;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.navbar-nav a {
+	color: #8D9593;
+}
+
+.nav-item {
+	font-weight: bold;
+}
+
+.last {
+	margin-left: 45px;
+	background: #00BB9E;
+	padding: 3px 18px;
+	border-radius: 5px;
+}
+
+.last a {
+	color: #fff;
+}
+
+.menu-link {
+	margin-top: 3px;
+}
