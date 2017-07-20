@@ -1,5 +1,6 @@
 .navbar {
-	margin-top:20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #logo-text {
@@ -16,12 +17,13 @@
 
 .nav-item {
 	font-weight: bold;
+	padding-right: 10px;
 }
 
 .last {
-	margin-left: 45px;
+	margin-left: 50px;
 	background: #00BB9E;
-	padding: 3px 18px;
+	padding: 3px 20px;
 	border-radius: 5px;
 }
 
@@ -31,4 +33,48 @@
 
 .menu-link {
 	margin-top: 3px;
+}
+
+#hero-section {
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url('../resources/hero-image.jpg');
+	background-size:cover;
+	background-position:50% 20;
+	min-height:550px;
+}
+
+#hero-section h1,h2 {
+	color:#fff;
+}
+
+#hero-section h1 {
+	font-size: 38px;
+	margin-top: 245px;
+	font-weight: bold;
+}
+
+#hero-section h2 {
+	font-size: 32px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+#explain-section h2 {
+	font-size: 32px;
+	font-weight: normal;
+	color: #000;
+	margin-top: 30%;
+}
+
+#explain-section p {
+	font-size: 20px;
+	color: #B2B7B6;
+	margin-top: 5%;
+	margin-bottom: 30%;
+}
+
+#explain-section {
+	border-bottom:2px solid #B2B7B6;
 }
