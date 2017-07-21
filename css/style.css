@@ -197,3 +197,7 @@ footer .btn-secondary:hover {
     /* IE 10+ */
     color: #000;
 }
+
+.error {
+	color: red;
+}
