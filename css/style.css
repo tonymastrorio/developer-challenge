@@ -20,6 +20,7 @@
 	padding-right: 10px;
 }
 
+
 .last {
 	margin-left: 50px;
 	background: #00BB9E;
@@ -27,7 +28,7 @@
 	border-radius: 5px;
 }
 
-.last a {
+.navbar-light .navbar-nav #lastnav {
 	color: #fff;
 }
 
@@ -76,7 +77,7 @@
 }
 
 #explain-section {
-	border-bottom: 2px solid #B2B7B6;
+	border-bottom: 2px solid #EDEDED;
 }
 
 #features p {
@@ -95,3 +96,94 @@
 	margin-bottom: 150px;
 }
 
+#components {
+	background: #2E414E;
+	padding-top: 150px;
+	padding-bottom: 0;
+}
+
+#product-image {
+	padding-left: 0;
+}
+
+#icons {
+	margin-top: 30px;
+}
+
+#icons h4 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: normal;
+	margin-top: 75px;
+}
+
+#icons p {
+	color: #C3D7E5;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#try-it-now {
+	color: #4BA88E;
+	background: none;
+	border: 2px solid #4BA88E;
+	border-radius: 5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+#startup {
+	font-weight:bold;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+footer .col-head {
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 7px;
+}
+
+.col-head + div {
+	margin-top: 15px;
+}
+
+.col-text a{
+	color: #8B8F8E;
+	font-size: 16px;
+}
+
+.col-4 {
+	margin-bottom: 15px;
+}
+
+footer input {
+	margin-top: 20px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #8B8F8E;
+
+}
+
+*::-webkit-input-placeholder {
+    color: #000;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #000;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #000;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000;
+}
