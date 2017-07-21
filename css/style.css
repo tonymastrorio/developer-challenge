@@ -134,6 +134,11 @@
 	padding: 10px 25px;
 }
 
+#try-it-now:hover {
+	color: #fff;
+	background: #4BA88E;
+}
+
 footer {
 	padding-top: 50px;
 	padding-bottom: 75px;
@@ -164,12 +169,17 @@ footer .col-head {
 	margin-bottom: 15px;
 }
 
-footer input {
-	margin-top: 20px;
-	padding: 5px 10px;
-	border-radius: 5px;
-	border: 1px solid #8B8F8E;
+.btn-secondary {
+	background: #BBC2C5;
+}
 
+footer input[type="email"] {
+	border: 2px solid #BBC2C5;
+	max-width: 175px;
+}
+
+footer .btn-secondary:hover {
+	background: #BBC2C5;
 }
 
 *::-webkit-input-placeholder {
