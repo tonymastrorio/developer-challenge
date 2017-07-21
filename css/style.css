@@ -70,11 +70,28 @@
 
 #explain-section p {
 	font-size: 20px;
-	color: #B2B7B6;
+	color: #8B8F8E;
 	margin-top: 5%;
 	margin-bottom: 30%;
 }
 
 #explain-section {
-	border-bottom:2px solid #B2B7B6;
+	border-bottom: 2px solid #B2B7B6;
 }
+
+#features p {
+	color: #8B8F8E;
+	font-size: 18px;
+}
+
+#features h3 {
+	color: #000;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+#features {
+	margin-top: 75px;
+	margin-bottom: 150px;
+}
+
